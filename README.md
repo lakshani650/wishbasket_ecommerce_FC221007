@@ -63,7 +63,7 @@
 wish-basket-project/
 │
 ├── frontend/
-│   ├── frontend-gifts.html
+│   ├── gifts.html
 │   ├── gifts.css
 │   └── gifts.js
 │   └── images/           
