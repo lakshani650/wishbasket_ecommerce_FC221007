@@ -1,6 +1,6 @@
 # Wish Basket - E-Commerce Web Application
 
-![Wish Basket Logo](frontend/images/logo.png)
+![Wish Basket Logo](images/logo.png)
 
 ## Table of Contents
 
