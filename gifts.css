@@ -1,0 +1,212 @@
+body{
+font-family:Arial;
+margin:0;
+background:rgb(255, 255, 255);
+}
+
+.header{
+  background-color:#6e0748  ;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(231, 14, 213, 0.4);}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+
+.navbar{background-color: #6e0748 ;display: flex;justify-content: flex-end;flex-wrap: wrap;text-align: left;width: 100%;padding-bottom: 10px;padding-top: 20px;}
+
+.navbar a {text-decoration: none;color: white;margin-left: 30px;padding: 2px 20px;font-size: 20px;gap: 10px;}
+
+.navbar a:hover{background-color: rgb(50, 184, 202);border-radius: 20px;}
+
+.logo{
+   display: flex;
+  align-items: center;
+  padding-left: 40px;}
+
+.logo-img{
+width:140px;
+height:140px;
+border-radius:10%;}
+
+.search-box{
+display:flex;
+align-items:center;
+background:white;
+border-radius:25px;
+padding:10px;
+margin-left: 30px;
+width:400px;
+box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.search-box input{
+border:none;
+outline:none;
+padding:10px;
+flex:1;
+border-radius:25px;
+font-size:14px;
+}
+
+.search-box button{
+background:#e70ed5;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.search-box button:hover{
+background:#c30bb5;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.home{
+text-align:center;
+padding:40px;
+background: linear-gradient(to right, #fbf8f9, #f68edc);
+}
+
+.name{
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family:cursive;
+}
+.para{font-weight: 600;
+font-size: 1rem;}
+
+.carousel{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    margin-top:20px;
+}
+
+.carousel-track{
+    display:flex;
+    width:max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img{
+    width:220px;
+    height:200px;
+    margin-right:20px;
+    border-radius:10px;
+}
+
+@keyframes scroll{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-50%);
+    }
+
+}
+.items{background: linear-gradient(to right, #f8f2f5, #f6e4ec);
+padding: 30px;}
+
+.products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:30px;
+}
+
+.product-box{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+}
+
+.product-box img{
+width:120px;
+}
+
+button{
+background:green;
+color:white;
+border:none;
+padding:8px;
+cursor:pointer;
+}
+
+.cart{
+padding:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+border:1px solid #ccc;
+padding:10px;
+}
+
+footer{
+background:#f5d0f5;
+padding:30px;
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.footer-box{
+width:30%;
+background:rgb(234, 158, 240);
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+text-align:center;
+transition:all 0.3s ease;
+}
+
+
+.footer-box:hover{
+transform:translateY(-8px);
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+.copyright{
+  background-color: #6e0748;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 0.9rem;
+}
+.info-item{gap: 10px;font-size: 14px;align-items:center;justify-content: flex-start;display: flex;padding: 5px 0;}
+
+.icon{background-image: url("images/image6.jpg");display:inline-block;width: 45px;height: 45px;background-size: 300px 200px;background-repeat: no-repeat;
+    border-radius: 45%;vertical-align: middle;margin-right: 10px;  }
+.location-icon{ background-position:-54px -74px ;}
+.phone-icon{background-position: -201px -74px;}
+.email-icon {background-position: -250px -74px;   }
+
+.social-icons {display:flex 20px;}
+
+.sm-icon {margin-top: 90px;  width: 60px;  height: 60px;display: inline-block;background-image: url('images/socialmedia.jpg');
+     background-size: 720px 360px;background-repeat: no-repeat;border-radius: 50%;}
+ 
+.facebook  { background-position: -35px -27px; }
+.instagram { background-position: -204px -27px; }
+.whatsapp  { background-position: -203px -199px; }
+
+.facebook:hover  { background-position: -35px -102px; }
+.instagram:hover { background-position: -204px -102px; }
+.whatsapp:hover  { background-position: -204px -274px; }
